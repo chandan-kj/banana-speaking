@@ -1,4 +1,9 @@
-var userName = prompt("what is your name?")
+var btnTranslate = document.querySelector("#btn-translate");
+var textInput = document.querySelector('#txt-input');
+var outputDiv = document.querySelector('#output')
 
-var welcome = "This works hurray " + userName
-alert(welcome)
+function clickHandler() {
+  outputDiv.innerHTML = "hygdigdied " + textInput.value
+}
+
+btnTranslate.addEventListener("click", clickHandler);
