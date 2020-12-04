@@ -1,20 +1,99 @@
-textarea {
-    margin: 1rem;
-    display: block;
-    width: 80%;
-    height: 10vh;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 90%;
+    margin: auto; 
+    background-color: #F5EAB3;
+}
+
+:root {
+    --primary-color:#F1C444;
+    --sec-color:#080808;
+}
+textarea {
+    margin: 2rem;
+    display: block;
+    width: 60%;
+    height: 15vh;
     padding: 8px;
+    margin-right:auto ;
+    margin-left: auto;
 }
 
 #output{
     border: 1px solid black;
     height: 10vh;
-    width: 80%;
+    width: 60%;
     padding: 16px;
     margin: 1rem;
+    margin-right:auto ;
+    margin-left: auto;
+    border-bottom-left-radius: 1rem;
+    background-color: white;
 }
 
 h1{
     text-align: center ;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--sec-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.minion-image{
+    padding-top: 2rem;
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.translate{
+ background-color:var(--primary-color) ;
+ border: #D1D5DB;
+ margin: 0 auto;
+ display: block;
+ font-size: 20px;
+ padding: 10px 100px 10px 100px;
+}
+
+.txt-output{
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 10px;
+}
+
+.footer{
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    padding: 1rem ;
+    padding-bottom: 5px;
+    text-align: center;
+    color: var(--sec-color);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer .Link{
+    color:var(--sec-color);
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 10px;
 }
