@@ -53,8 +53,8 @@ h1{
 }
 
 .translate{
- background-color:var(--primary-color) ;
- border: #D1D5DB;
+ background-color:var(--primary-color);
+ border: #080808;
  margin: 0 auto;
  display: block;
  font-size: 20px;
